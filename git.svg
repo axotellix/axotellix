@@ -16,7 +16,6 @@
         border-radius: 5px;
         color: white;
         font-family: Arial, sans-serif;
-        box-sizing: border-box;
     }
 
     h1 {
@@ -36,7 +35,6 @@
         background: #474661;
         border-radius: 5px;
         background: #474661 no-repeat;
-        background-image: url('https://travesiasdigital.com/wp-content/uploads/2018/10/mejores_destinos_2019_12.jpg');
         backround-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -56,13 +54,21 @@
         justify-content: center;
         align-items: center;
     }
+
+    .card img {
+        object-fit: cover;
+    }
     </style>
 
     <!-- [ layout ] -->
     <div class="container">
 
-        <div class="card" data-caption = 'FIT | Fitness center'></div>
-        <div class="card" data-caption = 'ToDo: Task manager'></div>
+        <div class="card" data-caption = 'FIT | Fitness center'>
+            <img src="'https://travesiasdigital.com/wp-content/uploads/2018/10/mejores_destinos_2019_12.jpg'">
+        </div>
+        <div class="card" data-caption = 'ToDo: Task manager'>
+            <img src="'https://travesiasdigital.com/wp-content/uploads/2018/10/mejores_destinos_2019_12.jpg'">
+        </div>
 
     </div>
 
