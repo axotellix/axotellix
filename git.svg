@@ -17,7 +17,7 @@
             font-family: Arial, sans-serif;
         }
 
-        p {
+        h1 {
             font-size: 50px;
             color: #ebedf0;
             text-shadow: none;
@@ -27,7 +27,7 @@
 
     <!-- [ layout ] -->
     <div class="container">
-        <p>Some cool stuff</p>
+        <h1>Some cool stuff</h1>
     </div>
 
 
