@@ -8,8 +8,8 @@
         .container {
             display: flex;
             width: 100%; height: auto;
-            margin: 0;
-            justify-content: center;
+            margin: 0; padding: 20px;
+            justify-content: flex-start;
             align-items: center;
             background: #353447;
             border-radius: 5px;
@@ -25,6 +25,7 @@
         }
 
         .card {
+            position: relative;
             flex: 1 0 300px;
             min-width: 300px; max-width: 300px;
             aspect-ratio: 5/3;
@@ -32,16 +33,25 @@
             border-radius: 5px;
             margin: 10px;
         }
-
+        .card::before {
+            content: attr(data-caption);
+            position: absolute;
+            display: block;
+            bottom: -10px;
+            left: 10px;
+            color: #ebedf0;
+            font-size: 14px;
+        }
     </style>
 
     <!-- [ layout ] -->
     <div class="container">
-    
-        <div class="card"></div>
+
+        <div class="card" data-caption = 'FIT | Fitness center'></div>
         <div class="card"></div>
 
     </div>
+
 
 </div>
 </foreignObject>
