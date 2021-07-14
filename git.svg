@@ -18,14 +18,15 @@
         }
 
         h1 {
+            flex: 1 0 100%;
             font-size: 50px;
             color: #ebedf0;
             text-shadow: none;
         }
 
         .card {
-            flex: 1 0 200px;
-            min-width: 200px; max-width: 300px;
+            flex: 1 0 300px;
+            min-width: 300px; max-width: 300px;
             aspect-ratio: 5/3;
             background: #474661;
             border-radius: 5px;
@@ -36,8 +37,7 @@
 
     <!-- [ layout ] -->
     <div class="container">
-        <h1>Some cool stuff</h1>
-
+    
         <div class="card"></div>
         <div class="card"></div>
 
