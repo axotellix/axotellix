@@ -35,10 +35,11 @@
         background: #474661;
         border-radius: 5px;
         background: #474661 no-repeat;
+        background-image: url('https://github.com/axotellix/todo/blob/assets/assets/img/cover.png');
         backround-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-    }
+        }
     .card::before {
         content: attr(data-caption);
         position: absolute;
@@ -54,21 +55,13 @@
         justify-content: center;
         align-items: center;
     }
-
-    .card img {
-        object-fit: cover;
-    }
     </style>
 
     <!-- [ layout ] -->
     <div class="container">
 
-        <div class="card" data-caption = 'FIT | Fitness center'>
-            <img >
-        </div>
-        <div class="card" data-caption = 'ToDo: Task manager'>
-            <img >
-        </div>
+        <div class="card" data-caption = 'FIT | Fitness center'></div>
+        <div class="card" data-caption = 'ToDo: Task manager'></div>
 
     </div>
 
