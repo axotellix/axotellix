@@ -11,8 +11,8 @@
             margin: 0;
             justify-content: center;
             align-items: center;
-            background: #353447;
-            border-radius: 7px;
+            background: #020203;
+            border-radius: 5px;
             color: white;
             font-family: Arial, sans-serif;
         }
@@ -23,11 +23,24 @@
             text-shadow: none;
         }
 
+        .card {
+            flex: 1 0 200px;
+            min-width: 200px; max-width: 300px;
+            aspect-ratio: 5/3;
+            background: #353447;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
     </style>
 
     <!-- [ layout ] -->
     <div class="container">
         <h1>Some cool stuff</h1>
+
+        <div class="card"></div>
+        <div class="card"></div>
+
     </div>
 
 
