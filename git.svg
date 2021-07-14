@@ -37,12 +37,13 @@
             content: attr(data-caption);
             position: absolute;
             display: block;
-            background: rgba(#000, 1);
+            background: rgba(black, 1);
             top: 0; bottom: 0;
             left: 0; right: 0;
             padding: 10px;
             color: #ebedf0;
             font-size: 14px;
+            text-align: center;
             box-sizing: border-box;
             display: flex;
             justify-content: flex-start;
