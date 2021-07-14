@@ -11,7 +11,7 @@
             margin: 0;
             justify-content: center;
             align-items: center;
-            background: #020203;
+            background: #353447;
             border-radius: 5px;
             color: white;
             font-family: Arial, sans-serif;
@@ -27,7 +27,7 @@
             flex: 1 0 200px;
             min-width: 200px; max-width: 300px;
             aspect-ratio: 5/3;
-            background: #353447;
+            background: #474661;
             border-radius: 5px;
             margin: 10px;
         }
