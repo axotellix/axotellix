@@ -46,7 +46,7 @@
     </div>
     
     <script>
-        document.body.style.display = 'none';
+       console.log('works');
     </script>
 
 </div>
