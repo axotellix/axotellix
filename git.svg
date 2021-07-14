@@ -44,6 +44,10 @@
         <h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
         <p>Click to see the source</p>
     </div>
+    
+    <script>
+        document.body.style.display = 'none';
+    </script>
 
 </div>
 </foreignObject>
