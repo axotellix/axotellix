@@ -1,7 +1,6 @@
 
 <!-- IN PROGRESS -->
 <svg fill="none" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
-<foreignObject width="100%" height="100%">
 <div xmlns="http://www.w3.org/1999/xhtml">
 
     <!-- [ styles ] -->
@@ -35,7 +34,11 @@
         overflow: hidden;
         background: #474661;
         border-radius: 5px;
-        background: #474661;
+        background: #474661 no-repeat;
+        background-image: url('https://github.com/axotellix/todo/blob/assets/assets/img/cover.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         }
     .card::before {
         content: attr(data-caption);
@@ -58,27 +61,10 @@
 
     <div class="container">
 
-        <div class="card" data-caption = 'FIT | Fitness center'>
-            <canvas id="imageView" width="100" height="100"></canvas>
-        </div>
+        <div class="card" data-caption = 'FIT | Fitness center'></div>
         <div class="card" data-caption = 'ToDo: Task manager'></div>
 
     </div> 
-    
-    <script>
-        var cw = 100;
-        var ch = 100;
-        var ctx = document.querySelector('canvas').getContext("2d");
-        var tankImg = new Image();
-        var x = cw / 2;
-        var w = 84;
-        var h = 84;
-        var Pos = 2;
-        tankImg.src = "https://www.asiascot.com/wp-content/uploads/2020/06/outdoor-3973802_1920-400x200.jpg";
-        
-        ctx.drawImage(tankImg, this.Pos * this.w, 0, this.w, this.h, this.x, ch - this.h, this.w, this.h);
-    </script> 
 
 </div>
-</foreignObject>
 </svg>
