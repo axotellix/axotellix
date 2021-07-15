@@ -35,11 +35,7 @@
         overflow: hidden;
         background: #474661;
         border-radius: 5px;
-        background: #474661 no-repeat;
-        background-image: url('https://github.com/axotellix/todo/blob/assets/assets/img/cover.png');
-        backround-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: #474661;
         }
     .card::before {
         content: attr(data-caption);
