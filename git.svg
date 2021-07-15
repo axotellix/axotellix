@@ -63,7 +63,7 @@
     <div class="container">
 
         <div class="card" data-caption = 'FIT | Fitness center'>
-            <object data="fit-img.png" type="image/png"/>
+            <object data="Dots.svg" type="image/svg+xml"/>
         </div>
         <div class="card" data-caption = 'ToDo: Task manager'>block</div>
 
