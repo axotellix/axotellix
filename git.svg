@@ -1,7 +1,25 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" fill="#ebedf0" class="bi bi-plus" viewBox="0 0 320 200"
-  style="background: #474661; border-radius: 4px; cursor: pointer; transition: background 0.25s"
->
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" fill="#ebedf0" class="bi bi-plus" viewBox="0 0 320 200">
+  <!-- [ styles ] -->
+  <style>
+    .modal, .modal-text {
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    .cover {
+      display: block;
+      width: 100%; height: 100%;
+      position: absolute;
+      left: 0; top: 0;
+      z-index: 999;
+      fill: Black;
+      fill-opacity: 0.7;
+      z-index: -1;
+    }
+    .logo {
+      transition: opacity 0.25s;
+    }
+  </style>
   <!-- [ content ] -->
   <svg class = 'logo' width="100%" height="100%" viewBox="-7 -7 30 30">
       <path
