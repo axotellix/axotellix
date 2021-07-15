@@ -63,8 +63,8 @@
 
     <div class="container">
 
-        <div class="card" data-caption = 'FIT | Fitness center'></div>
-        <div class="card" data-caption = 'ToDo: Task manager'></div>
+        <div class="card" data-caption = 'FIT | Fitness center'>block</div>
+        <div class="card" data-caption = 'ToDo: Task manager'>block</div>
 
     </div> 
 
