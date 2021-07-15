@@ -1,8 +1,8 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" fill="#ebedf0" class="bi bi-plus" viewBox="0 0 320 200"
-  style="background: #474661; border-radius: 4px; cursor: pointer; transition: background 0.25s"     
-><foreignObject>
-   <!-- [ styles ] -->
+  style="background: #474661; border-radius: 4px; cursor: pointer; transition: background 0.25s"
+>
+  <!-- [ styles ] -->
   <style>
     .modal, .modal-text {
       opacity: 0;
@@ -61,4 +61,4 @@
        FIT | Fitness center
      </text>
   </g>
-</foreignObject></svg>
+</svg>
