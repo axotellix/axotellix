@@ -4,6 +4,6 @@
     
     <text x="15" y="15" fill="#fff">some text</text>
     <br></br>
-    <image xlink:href="https://github.com/axotellix/axotellix/blob/main/fit-img.png" x="0" y="0" height="200px" width="120px"/>
+    <object data="https://github.com/axotellix/axotellix/blob/main/fit-img.png" type="image/png"/>
  
 </svg>
