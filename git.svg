@@ -1,6 +1,7 @@
 
 <!-- IN PROGRESS -->
 <svg fill="none" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100%" height="100%">    
 <div xmlns="http://www.w3.org/1999/xhtml">
 
     <!-- [ styles ] -->
@@ -56,7 +57,8 @@
         align-items: center;
     }
     </style>
-
+</div>
+</foreignObject>
     <!-- [ layout ] -->
 
     <div class="container">
@@ -66,5 +68,5 @@
 
     </div> 
 
-</div>
+
 </svg>
