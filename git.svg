@@ -7,67 +7,19 @@
     <!-- [ styles ] -->
     <style>
     .container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%; height: auto;
-        margin: 0; padding: 20px;
-        background: #353447;
-        border-radius: 5px;
-        color: white;
-        font-family: Arial, sans-serif;
-        background-image: url('https://github.com/axotellix/todo/blob/assets/assets/img/cover.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    h1 {
-        flex: 1 0 100%;
-        font-size: 50px;
-        color: #ebedf0;
-        text-shadow: none;
-    }
-
-    .card {
-        position: relative;
-        flex: 1 0 300px;
-        min-width: 300px; max-width: 300px;
-        aspect-ratio: 5/3;
-        margin: 10px;
-        overflow: hidden;
-        background: #474661;
-        border-radius: 5px;
-        background: #474661 no-repeat;
-        }
-    .card::before {
-        content: attr(data-caption);
+        display: block;
         position: absolute;
-        background: rgba(black, 0.8);
-        backdrop-filter: blur(3px);
+        top: 0; left: 0;
+        bottom: 0; right: 0;
         width: 100%; height: 100%;
-        padding: 10px;
-        color: #ebedf0;
-        font-size: 14px;
-        text-align: center;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 0;
+        background: #353447;
     }
     </style>
 
     <!-- [ layout ] -->
 
-    <div class="container">
-
-        <div class="card" data-caption = 'FIT | Fitness center'>
-            <object data="Dots.svg" type="image/svg+xml"/>
-        </div>
-        <div class="card" data-caption = 'ToDo: Task manager'>block</div>
-
-    </div> 
+    <div class="container"></div> 
 
 </div>
 </foreignObject>    
