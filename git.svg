@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="200" height="225">
-<rect x="0" y="0" width="100%" height="100%" fill="#7890A7" stroke-width="20" stroke="#7890A7" ></rect>
- <em>I</em> am
-<span style="color:white;">
- HTML in SVG!</span>
-<br></br>
-<text x="0" y="15" fill="red">I love SVG!</text>
-<br></br>
-<text x="0" y="15" fill="red">I love SVG!</text>
-<br></br>
-<image xlink:href="../windows.png" x="0" y="0" height="50px" width="50px"/>
-<br></br>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="100%">
+ 
+    <rect x="0" y="0" width="100%" height="100%" fill="#7890A7" stroke-width="20" stroke="#7890A7" ></rect>
+    
+    <text x="0" y="15" fill="red">I love SVG!</text>
+    <br></br>
+    <image xlink:href="https://www.asiascot.com/wp-content/uploads/2020/06/outdoor-3973802_1920-400x200.jpg" x="0" y="0" height="200px" width="120px"/>
+ 
 </svg>
