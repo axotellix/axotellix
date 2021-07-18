@@ -5,8 +5,9 @@
   <!-- [ styles ] -->
   <style>
     .modal, .modal-text {
-      opacity: 0;
+      opacity: 1;
       transition: opacity 0.25s;
+      background: Orange;
     }
     .cover {
       display: block;
