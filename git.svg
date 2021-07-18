@@ -19,6 +19,9 @@
       fill-opacity: 1;
       z-index: -1;
     }
+    .cover:hover {
+       fill: Orange; 
+    }
     .logo {
       transition: opacity 0.25s;
     }
