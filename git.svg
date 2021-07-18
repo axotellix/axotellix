@@ -23,7 +23,7 @@
     }
   </style>
   <!-- [ content ] -->
-  <svg class = 'modal' width="100%" height="100%" viewBox="-7 -7 30 30"
+  <svg class = 'modal' width="100%" height="100%" viewBox="0 0 320 200"
      onMouseOver="
         this.style.background='Orange';
         this.style.opacity='1';
