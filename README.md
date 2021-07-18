@@ -3,11 +3,6 @@
 
 ### Top projects.
 <div align="left" width="100%" background="Orange">
-	<style>
-		img {
-			opacity: 0.2;
-		}
-	</style>
 	<h5>FIT | Fitness center</h5>
 	<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" fill="#ebedf0" class="bi bi-plus" viewBox="0 0 320 200"
 	  style="background: #474661; border-radius: 4px; cursor: pointer; transition: background 0.25s"
