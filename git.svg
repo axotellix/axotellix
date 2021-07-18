@@ -25,6 +25,7 @@
   <!-- [ content ] -->
   <svg class = 'modal' width="100%" height="100%" viewBox="-7 -7 30 30"
      onMouseOver="
+        this.style.background='Orange';
         this.style.opacity='1';
         document.querySelector('.logo').style.opacity='0.5'
         document.querySelector('.modal-text').style.opacity='1';
