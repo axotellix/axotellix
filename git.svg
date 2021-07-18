@@ -4,13 +4,9 @@
 >
   <!-- [ styles ] -->
   <style>
-    img:hover {
-      display: none;
-    }
     .modal, .modal-text {
       opacity: 1;
       transition: opacity 0.25s;
-      background: Orange;
     }
     .cover {
       display: block;
@@ -21,7 +17,7 @@
       fill: Tomato;
       fill-opacity: 1;
     }
-    svg:hover .cover {
+    svg:hover {
        background: Orange!important; 
     }
     .logo {
