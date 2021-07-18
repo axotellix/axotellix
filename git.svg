@@ -7,7 +7,7 @@
     .modal, .modal-text {
       opacity: 1;
       transition: opacity 0.25s;
-      background: Orange;
+      background: Orange!important;
     }
     .cover {
       display: block;
