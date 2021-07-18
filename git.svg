@@ -33,7 +33,7 @@
          x="0"
          y="0"
          class="cover"
-         onClick="console.log('done')"
+         onclick="console.log('done')"
          onMouseOver="this.style.fill='Orange';"
          onMouseOut="this.style.fill='Tomato';"
       />
