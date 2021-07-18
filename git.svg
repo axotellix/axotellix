@@ -22,7 +22,7 @@
       fill-opacity: 1;
     }
     svg:hover .cover {
-       fill: Orange!important; 
+       background: Orange!important; 
     }
     .logo {
       transition: opacity 0.25s;
