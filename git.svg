@@ -18,7 +18,7 @@
       fill: Tomato;
       fill-opacity: 1;
     }
-    svg:hover .cover, .cover:hover {
+    svg:hover .cover {
        fill: Orange!important; 
     }
     .logo {
