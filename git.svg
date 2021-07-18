@@ -19,7 +19,7 @@
       fill-opacity: 1;
       z-index: -1;
     }
-    .cover:hover {
+    svg:hover .cover, .cover:hover {
        fill: Orange; 
     }
     .logo {
