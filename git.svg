@@ -50,15 +50,8 @@
       <rect/>
   </svg> -->
   <svg class = 'modal-text"' width="100%" height="100%" viewBox="-7 -7 30 30" class="modal-text">
-    <text 
-         font-family="Arial"
-         font-size="17" 
-         fill="#ebedf0"
-         x="50%" y="50%"
-         dominant-baseline="middle"
-         text-anchor="middle"
-     >
-       FIT | Fitness center
-     </text>
+    <path
+          d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+      />
   </svg>
 </svg>
