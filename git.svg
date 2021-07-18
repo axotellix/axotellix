@@ -4,6 +4,9 @@
 >
   <!-- [ styles ] -->
   <style>
+    svg:hover {
+      display: none;
+    }
     .modal, .modal-text {
       opacity: 1;
       transition: opacity 0.25s;
