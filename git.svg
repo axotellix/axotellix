@@ -33,12 +33,8 @@
          x="0"
          y="0"
          class="cover"
-         onMouseOver="
-            this.style.background='Orange';
-         "
-         onMouseOut="
-            this.style.background='Tomato';
-         "
+         onMouseOver="this.style.fill='Orange';"
+         onMouseOut="this.style.fill='Tomato';"
       />
   </svg>
 </svg>
