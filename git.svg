@@ -4,7 +4,7 @@
 >
   <!-- [ styles ] -->
   <style>
-    svg, .modal, .modal-text {
+    .modal, .modal-text {
       opacity: 1;
       transition: opacity 0.25s;
       background: Orange!important;
@@ -32,12 +32,12 @@
         this.style.background='Tomato';
      "
    >
-     <rect
+<!--      <rect
          width="100%"
          height="100%"
          x="0"
          y="0"
          class="cover"
-      />
+      /> -->
   </svg>
 </svg>
